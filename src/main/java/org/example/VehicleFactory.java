@@ -1,2 +1,5 @@
-package org.example;public class VehicleFactory {
+package org.example;
+
+public interface VehicleFactory {
+    Vehicle createVehicle();
 }
